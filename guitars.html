@@ -8,1352 +8,1157 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Pianos | SMANTHA MUSIC STORE</title>
   </head>
-  <body>
-
-    <style>
-        /* This css file is to over write bootstarp css
----------------------------------------------------------------------- */
-
-
-/*
-Theme Name: Modern - Bootstrap 4 Cards
-Theme URI: http://adamthemes.com/
-Author: AdamThemes
-Author URI: http://adamthemes.com/
-Description: Modern - Bootstrap 4 Cards by AdamThemes
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: card, cards, css3, modern, adamthemes, bootstrap, profile
-*---------------------------------------------------------------------- */
-
-
-/*---------------------------------------------------------------------- 
-TABLE OF CONTENTS
-
-// 1. SECTIONS
-// 2. CARDS
-//      2.1 Card Table 
-//      2.1 Card Blog 
-//      2.1 Card Background 
-//      2.1 Card Profile 
-//      2.1 Card Category 
-//      2.1 Card Author 
-//      2.1 Card Product
-//      2.1 Card Testimonial
-//      2.1 Text Color
-// 3. BUTTONS
-// 4. SOCIAL MEDIA BUTTONS
-// 5. BOOTSTRAP COL-MD-12 CLASS
-// 6. FONT AWESOME FA CLASS
-
-------------------------------------------------------------------------*/
-
-
-/*---------------------------------------------------------------------- /
-SECTIONS
------------------------------------------------------------------------ */
-
-.section-cards {
-    z-index: 3;
-    position: relative;
-}
-
-.section-gray {
-    background: #E5E5E5;
-    padding: 60px 0 30px 0;
-}
-
-
-/*---------------------------------------------------------------------- /
-CARDS
------------------------------------------------------------------------ */
-
-.card {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    border-radius: 6px;
-    color: rgba(0, 0, 0, 0.87);
-    background: #fff;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-
-.card .card-image {
-    height: 60%;
-    position: relative;
-    overflow: hidden;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -30px;
-    border-radius: 6px;
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.card .card-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    pointer-events: none;
-}
-
-.card .card-image .card-caption {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: #fff;
-    font-size: 1.3em;
-    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-}
-
-.img-raised {
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.card .ftr {
-    margin-top: 15px;
-}
-
-.card .ftr div {
-    display: inline-block;
-}
-
-.card .ftr .author {
-    color: #888;
-}
-
-.card .ftr .stats {
-    float: right;
-    line-height: 30px;
-}
-
-.card .ftr .stats {
-    position: relative;
-    top: 1px;
-    font-size: 14px;
-}
-
-
-/* ============ Card Table ============ */
-
-.table {
-    margin-bottom: 0px;
-}
-
-.card .table {
-    padding: 15px 30px;
-}
-
-.card .table-primary {
-    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
-}
-
-.card .table-info {
-    background: linear-gradient(60deg, #26c6da, #0097a7);
-}
-
-.card .table-success {
-    background: linear-gradient(60deg, #66bb6a, #388e3c);
-}
-
-.card .table-warning {
-    background: linear-gradient(60deg, #ffa726, #f57c00);
-}
-
-.card .table-danger {
-    background: linear-gradient(60deg, #ef5350, #d32f2f);
-}
-
-.card .table-rose {
-    background: linear-gradient(60deg, #ec407a, #c2185b);
-}
-
-.card [class*="table-"] {
-    color: #FFFFFF;
-    border-radius: 6px;
-}
-
-.card [class*="table-"] .card-caption a,
-.card [class*="table-"] .card-caption,
-.card [class*="table-"] .icon i {
-    color: #FFFFFF;
-}
-
-.card [class*="table-"] .icon i {
-    border-color: rgba(255, 255, 255, 0.25);
-}
-
-.card [class*="table-"] .author a,
-.card [class*="table-"] .ftr .stats,
-.card [class*="table-"] .category,
-.card [class*="table-"] .card-description {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.card [class*="table-"] .author a:hover,
-.card [class*="table-"] .author a:focus,
-.card [class*="table-"] .author a:active {
-    color: #FFFFFF;
-}
-
-.card [class*="table-"] h1 small,
-.card [class*="table-"] h2 small,
-.card [class*="table-"] h3 small {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-
-/* ============ Card Blog ============ */
-
-.card-blog {
-    margin-top: 30px;
-}
-
-.card-blog .card-caption {
-    margin-top: 5px;
-}
-
-.card-blog .card-image + .category {
-    margin-top: 20px;
-}
-
-.card-raised {
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-
-/* ============ Card Background ============ */
-
-.card-background {
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-.card-background .table {
-    position: relative;
-    z-index: 2;
-    min-height: 280px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    max-width: 440px;
-    margin: 0 auto;
-}
-
-.card-background .category,
-.card-background .card-description,
-.card-background small {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.card-background .card-caption {
-    color: #FFFFFF;
-    margin-top: 10px;
-}
-
-.card-background:after {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    display: block;
-    left: 0;
-    top: 0;
-    table: "";
-    background-color: rgba(0, 0, 0, 0.56);
-    border-radius: 6px;
-}
-
-
-/* ============ Card Profile ============ */
-
-.card-profile {
-    margin-top: 30px;
-    text-align: center;
-}
-
-
-/* ============ Card Category ============ */
-
-.category {
-    position: relative;
-    line-height: 0;
-    margin: 15px 0;
-}
-
-.card .category-social .fa {
-    font-size: 24px;
-    position: relative;
-    margin-top: -4px;
-    top: 2px;
-    margin-right: 5px;
-}
-
-
-/* ============ Card Author ============ */
-
-.card .author .avatar {
-    width: 36px;
-    height: 36px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-.card .author a {
-    color: #333;
-    text-decoration: none;
-}
-
-.card .author a .ripple-cont {
-    display: none;
-}
-
-
-/* ============ Card Product ============ */
-
-.card-product {
-    margin-top: 30px;
-}
-
-.card-product .btn-simple.btn-just-icon {
-    padding: 0;
-}
-
-.card-product .ftr {
-    margin-top: 5px;
-}
-
-.card-product .ftr .stats {
-    margin-top: 4px;
-    top: 0;
-}
-
-.card-product .ftr h4 {
-    margin-bottom: 0;
-}
-
-.card-product .card-caption,
-.card-product .category,
-.card-product .card-description {
-    text-align: center;
-}
-
-.card-description p {
-    color: #888;
-}
-
-.card-caption,
-.card-caption a {
-    color: #333;
-    text-decoration: none;
-}
-
-.card-caption {
-    font-weight: 700;
-    font-family: "Roboto Slab", "Times New Roman", serif;
-}
-
-
-/* ============ Card Testimonial ============ */
-
-.card-testimonial {
-    margin-top: 0;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.card-profile .btn-just-icon.btn-raised,
-.card-testimonial .btn-just-icon.btn-raised {
-    margin-left: 6px;
-    margin-right: 6px;
-}
-
-.card-profile .card-avatar,
-.card-testimonial .card-avatar {
-    max-width: 130px;
-    max-height: 130px;
-    margin: -50px auto 0;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
-.card-profile.card-plain .card-avatar,
-.card-testimonial.card-plain .card-avatar {
-    margin-top: 0;
-}
-
-.card-testimonial .card-avatar {
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.card-testimonial .card-description {
-    font-style: italic;
-}
-
-.card-testimonial .card-description + .card-caption {
-    margin-top: 30px;
-}
-
-.card-testimonial .icon {
-    margin-top: 30px;
-}
-
-.card-testimonial .icon {
-    font-size: 40px;
-}
-
-.card-testimonial .ftr {
-    margin-top: 0;
-}
-
-.card-testimonial .ftr .card-avatar {
-    margin-top: 10px;
-    margin-bottom: -50px;
-}
-
-
-/* ============ Text Color ============ */
-
-.text-warning {
-    color: #ff9800;
-}
-
-.text-primary {
-    color: #9c27b0;
-}
-
-.text-danger {
-    color: #f44336;
-}
-
-.text-success {
-    color: #4caf50;
-}
-
-.text-info {
-    color: #00bcd4;
-}
-
-.text-rose {
-    color: #e91e63;
-}
-
-.text-gray {
-    color: #888;
-}
-
-
-/*---------------------------------------------------------------------- /
-BUTTONS
------------------------------------------------------------------------ */
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.btn,
-.navbar .navbar-nav > li > a.btn {
-    border: none;
-    border-radius: 3px;
-    position: relative;
-    padding: 12px 30px;
-    margin: 10px 1px;
-    font-size: 12px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    will-change: box-shadow, transform;
-    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn:focus,
-.btn:active,
-.btn:active:focus {
-    outline: 0;
-}
-
-.btn.btn-round,
-.navbar .navbar-nav > li > a.btn.btn-round {
-    border-radius: 30px;
-}
-
-.btn.btn-just-icon,
-.navbar .navbar-nav > li > a.btn.btn-just-icon {
-    font-size: 20px;
-    padding: 12px 12px;
-    line-height: 1em;
-}
-
-.btn.btn-just-icon i,
-.navbar .navbar-nav > li > a.btn.btn-just-icon i {
-    width: 20px;
-}
-
-
-/* Button Info */
-
-.btn.btn-info {
-    background-color: #00bcd4;
-    color: #FFFFFF;
-}
-
-.btn.btn-info:focus,
-.btn.btn-info:active,
-.btn.btn-info:hover {
-    box-shadow: 0 14px 26px -12px rgba(0, 188, 212, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 188, 212, 0.2);
-}
-
-
-/* Button Danger */
-
-.btn.btn-danger {
-    background-color: #f44336;
-    color: #FFFFFF;
-}
-
-.btn.btn-danger:focus,
-.btn.btn-danger:active,
-.btn.btn-danger:hover {
-    box-shadow: 0 14px 26px -12px rgba(244, 67, 54, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
-}
-
-
-/* Button Warning */
-
-.btn.btn-warning.btn-simple:hover,
-.btn.btn-warning.btn-simple:focus,
-.btn.btn-warning.btn-simple:active {
-    background-color: transparent;
-    color: #ff9800;
-}
-
-.btn.btn-warning.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-warning.btn-simple {
-    background-color: transparent;
-    color: #ff9800;
-    box-shadow: none;
-}
-
-.btn.btn-warning,
-.navbar .navbar-nav > li > a.btn.btn-warning {
-    box-shadow: 0 2px 2px 0 rgba(255, 152, 0, 0.14), 0 3px 1px -2px rgba(255, 152, 0, 0.2), 0 1px 5px 0 rgba(255, 152, 0, 0.12);
-}
-
-
-/* Button Rose */
-
-.btn.btn-rose.btn-simple:hover,
-.btn.btn-rose.btn-simple:focus,
-.btn.btn-rose.btn-simple:active {
-    background-color: transparent;
-    color: #e91e63;
-}
-
-.btn.btn-rose.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-rose.btn-simple {
-    background-color: transparent;
-    color: #e91e63;
-    box-shadow: none;
-}
-
-
-/* Button White */
-
-.btn.btn-white,
-.btn.btn-white:focus,
-.btn.btn-white:hover {
-    background-color: #FFFFFF;
-    color: #888;
-}
-
-.btn.btn-white.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-white.btn-simple {
-    color: #FFFFFF;
-    background: transparent;
-    box-shadow: none;
-}
-
-
-/*---------------------------------------------------------------------- /
-SOCIAL MEDIA BUTTONS
------------------------------------------------------------------------ */
-
-
-/* facebook */
-
-.btn.btn-facebook,
-.navbar .navbar-nav > li > a.btn.btn-facebook {
-    background-color: #3b5998;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
-}
-
-.btn.btn-facebook:focus,
-.btn.btn-facebook:active,
-.btn.btn-facebook:hover {
-    background-color: #3b5998;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
-}
-
-.btn.btn-facebook.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-facebook.btn-simple {
-    color: #3b5998;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*twitter*/
-
-.btn.btn-twitter,
-.navbar .navbar-nav > li > a.btn.btn-twitter {
-    background-color: #55acee;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(85, 172, 238, 0.14), 0 3px 1px -2px rgba(85, 172, 238, 0.2), 0 1px 5px 0 rgba(85, 172, 238, 0.12);
-}
-
-.btn.btn-twitter:focus,
-.btn.btn-twitter:active,
-.btn.btn-twitter:hover {
-    background-color: #55acee;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(85, 172, 238, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(85, 172, 238, 0.2);
-}
-
-.btn.btn-twitter.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-twitter.btn-simple {
-    color: #55acee;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*pinterest*/
-
-.btn.btn-pinterest,
-.navbar .navbar-nav > li > a.btn.btn-pinterest {
-    background-color: #cc2127;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(204, 33, 39, 0.14), 0 3px 1px -2px rgba(204, 33, 39, 0.2), 0 1px 5px 0 rgba(204, 33, 39, 0.12);
-}
-
-.btn.btn-pinterest:focus,
-.btn.btn-pinterest:active,
-.btn.btn-pinterest:hover {
-    background-color: #cc2127;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(204, 33, 39, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(204, 33, 39, 0.2);
-}
-
-.btn.btn-pinterest.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-pinterest.btn-simple {
-    color: #cc2127;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*google*/
-
-.btn.btn-google,
-.navbar .navbar-nav > li > a.btn.btn-google {
-    background-color: #dd4b39;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(221, 75, 57, 0.14), 0 3px 1px -2px rgba(221, 75, 57, 0.2), 0 1px 5px 0 rgba(221, 75, 57, 0.12);
-}
-
-.btn.btn-google:focus,
-.btn.btn-google:active,
-.btn.btn-google:hover {
-    background-color: #dd4b39;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(221, 75, 57, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(221, 75, 57, 0.2);
-}
-
-.btn.btn-google.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-google.btn-simple {
-    color: #dd4b39;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*dribbble*/
-
-.btn.btn-dribbble,
-.navbar .navbar-nav > li > a.btn.btn-dribbble {
-    background-color: #ea4c89;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(234, 76, 137, 0.14), 0 3px 1px -2px rgba(234, 76, 137, 0.2), 0 1px 5px 0 rgba(234, 76, 137, 0.12);
-}
-
-.btn.btn-dribbble:focus,
-.btn.btn-dribbble:active,
-.btn.btn-dribbble:hover {
-    background-color: #ea4c89;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(234, 76, 137, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(234, 76, 137, 0.2);
-}
-
-.btn.btn-dribbble.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-dribbble.btn-simple {
-    color: #ea4c89;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*instagram*/
-
-.btn.btn-instagram,
-.navbar .navbar-nav > li > a.btn.btn-instagram {
-    background-color: #125688;
-    color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(18, 86, 136, 0.14), 0 3px 1px -2px rgba(18, 86, 136, 0.2), 0 1px 5px 0 rgba(18, 86, 136, 0.12);
-}
-
-.btn.btn-instagram:focus,
-.btn.btn-instagram:active,
-.btn.btn-instagram:hover {
-    background-color: #125688;
-    color: #fff;
-    box-shadow: 0 14px 26px -12px rgba(18, 86, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(18, 86, 136, 0.2);
-}
-
-.btn.btn-instagram.btn-simple,
-.navbar .navbar-nav > li > a.btn.btn-instagram.btn-simple {
-    color: #125688;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-
-/*---------------------------------------------------------------------- /
-BOOTSTRAP COL-MD-12 CLASS
------------------------------------------------------------------------ */
-
-.col-md-12 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-
-/*---------------------------------------------------------------------- /
-FONT AWESOME FA CLASS
------------------------------------------------------------------------ */
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/***********Only4Demo*******************/
-/**************************************/
-
-/* ======= GENERAL  ======= */
-
-body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-}
-
-a {
-    color: #9c27b0;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #9c27b0;
-    text-decoration: underline;
-}
-
-p {
-    color: #3C4857;
-}
-
-header {
-    border-bottom: 1px solid #dedede;
-    text-align: center;
-}
-
-
-h1, .h1 {
-  font-size: 3.8em;
-}
-
-h2, .h2 {
-  font-size: 2.0em;
-  line-height: 1.6em;
-  margin: 15px 0 15px;
-  font-weight: 700;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  text-align: center;
-}
-
-h3, .h3 {
-  font-size: 1.825em;
-  line-height: 1.4em;
-  margin: 30px 0 30px;
-  font-weight: 700;
-  font-family: "Roboto Slab", "Times New Roman", serif;
-  text-align: center;
-}
-
-h4, .h4 {
-  font-size: 1.3em;
-  line-height: 1.55em;
-}
-
-h5, .h5 {
-  font-size: 1.25em;
-  line-height: 1.55em;
-  margin-bottom: 15px;
-}
-
-h6, .h6 {
-  font-size: 0.9em;
-  font-weight: 500;
-}
-    </style>
-
-    <article class="col-md-12">
-        <!-- Modern - Bootstrap Cards -->
-        <header>
-            <h2>Modern - Bootstrap 4 Cards</h2> </header>
-        <!-- BLOG CARDS -->
-        <h2>Blog Cards</h2>
-        <div class="cards-1 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="https://images.unsplash.com/photo-1626962132437-0a69f246a392?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fHNvZnQlMjBpbnN0cnVtZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                                    <div class="card-caption"> Quisque a bibendum magna </div>
-                                </a>
-                                <div class="ripple-cont"></div>
+  <body style="background-color: #dbdbdb;">
+    
+    
+<style>
+    /*****************
+        - Header -
+    *****************/
+    header {
+        position:relative;
+        left:0;
+        top:0;
+        width:100%;
+        min-height:120px;
+        padding:50px 0;
+        color:#fff;
+            background: #383838 url(https://images.unsplash.com/photo-1477927849362-0fb1e7d59ee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)  center ;
+        margin-bottom:30px
+    }
+
+    /* Logo */
+    header .logo {
+        clear:both;
+        display:block;
+        text-align:center;
+        padding-bottom:10px;
+    }
+
+    /* Title */
+    header h1 {
+        font-weight:300;
+        font-size:24px;
+        color:#eee;	
+        letter-spacing:2px;
+        text-align:center;
+        text-transform:uppercase;
+        margin:0 !important;
+        padding-bottom:25px;
+    }
+
+    h1,h2,h3,h4,h5,h6,div,input,p,a {
+        font-family: "Open Sans";
+        margin: 0px;
+    }
+
+    a,a:hover, a:focus {
+        color: inherit;
+    }
+
+    body {
+        background-color: #F1F2F3;
+    }
+
+    .container-fluid, .container {
+        max-width: 1200px;
+    }
+
+    .card-container {
+        padding: 100px 0px;
+        -webkit-perspective: 1000;
+        perspective: 1000;
+    }
+
+    .profile-card-1 {
+        background-color: #FFF;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        background-image: url(../img/profile-bg-1.jpg);
+        background-position: center;
+        padding-top: 100px;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        max-width: 300px;
+    }
+
+    .profile-card-1 .profile-content {
+        position: relative;
+        background-color: #FFF;
+        padding: 70px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .profile-card-1 .profile-img {
+        position: absolute;
+        height: 100px;
+        left: 0px;
+        right: 0px;
+        z-index: 10;
+        top: -50px;
+        transition: all 0.25s linear;
+        transform-style: preserve-3d;
+    }
+
+    .profile-card-1 .profile-img img {
+        height: 100px;
+        margin: auto;
+        border-radius: 50%;
+        border: 5px solid #FFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-card-1 .profile-name {
+        font-size: 18px;
+        font-weight: bold;
+        color: #021830;
+    }
+
+    .profile-card-1 .profile-address {
+        color: #777;
+        font-size: 12px;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .profile-card-1 .profile-description {
+        font-size: 13px;
+        padding: 5px 10px;
+        color: #777;
+    }
+
+    .profile-card-1 .profile-icons .fa {
+        margin: 5px;
+        color: #777;
+    }
+
+    .profile-card-1:hover {
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-card-1:hover .profile-img {
+        transform: rotateY(180deg);
+    }
+
+    .profile-card-2 {
+        max-width: 300px;
+        background-color: #FFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        background-position: center;
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .profile-card-2 img {
+        transition: all linear 0.25s;
+    }
+
+    .profile-card-2 .profile-name {
+        position: absolute;
+        left: 30px;
+        bottom: 70px;
+        font-size: 30px;
+        color: #FFF;
+        text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        transition: all linear 0.25s;
+    }
+
+    .profile-card-2 .profile-icons {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        color: #FFF;
+        transition: all linear 0.25s;
+    }
+
+    .profile-card-2 .profile-username {
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        color: #FFF;
+        font-size: 13px;
+        transition: all linear 0.25s;
+    }
+
+    .profile-card-2 .profile-icons .fa {
+        margin: 5px;
+    }
+
+    .profile-card-2:hover img {
+        filter: grayscale(100%);
+    }
+
+    .profile-card-2:hover .profile-name {
+        bottom: 80px;
+    }
+
+    .profile-card-2:hover .profile-username {
+        bottom: 60px;
+    }
+
+    .profile-card-2:hover .profile-icons {
+        right: 40px;
+    }
+
+    .profile-card-3 {
+        background-color: #FFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        padding: 25px 15px;
+    }
+
+    .profile-card-3 .profile-name {
+        font-weight: bold;
+        color: #21304e;
+    }
+
+    .profile-card-3 .profile-location {
+        color: #999;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .profile-card-3 img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        margin: 10px auto;
+        border-radius: 50%;
+        transition: all linear 0.25s;
+    }
+
+    .profile-card-3 .profile-description {
+        font-size: 13px;
+        color: #777;
+        padding: 10px;
+    }
+
+    .profile-card-3 .profile-icons {
+        margin: 15px 0px;
+    }
+
+    .profile-card-3 .profile-icons .fa {
+        color: #fe455a;
+        margin: 0px 5px;
+    }
+
+    .profile-card-3:hover img {
+        height: 110px;
+        width: 110px;
+        margin: 5px auto;
+    }
+
+    .profile-card-4 {
+        max-width: 300px;
+        background-color: #FFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+    .profile-card-4 img {
+        transition: all 0.25s linear;
+    }
+
+    .profile-card-4 .profile-content {
+        position: relative;
+        padding: 15px;
+        background-color: #FFF;
+    }
+
+    .profile-card-4 .profile-name {
+        font-weight: bold;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: -70px;
+        color: #FFF;
+        font-size: 17px;
+    }
+
+    .profile-card-4 .profile-name p {
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+    }
+
+    .profile-card-4 .profile-description {
+        color: #777;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .profile-card-4 .profile-overview {
+        padding: 15px 0px;
+    }
+
+    .profile-card-4 .profile-overview p {
+        font-size: 10px;
+        font-weight: 600;
+        color: #777;
+    }
+
+    .profile-card-4 .profile-overview h4 {
+        color: #273751;
+        font-weight: bold;
+    }
+
+    .profile-card-4 .profile-content::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        top: -10px;
+        left: 0px;
+        right: 0px;
+        background-color: #FFF;
+        z-index: 0;
+        transform: skewY(3deg);
+    }
+
+    .profile-card-4:hover img {
+        transform: rotate(5deg) scale(1.1, 1.1);
+        filter: brightness(110%);
+    }
+
+    .profile-card-5 {
+        max-width: 300px;
+        background-color: #FFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        padding: 50px 15px 25px 15px;
+    }
+
+    .profile-card-5 img {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        margin: 10px auto;
+        border-radius: 50%;
+        transition: all linear 0.25s;
+        position: relative;
+    }
+
+    .profile-card-5::before {
+        content: "";
+        position: absolute;
+        top: -60px;
+        right: 0px;
+        left: 0px;
+        height: 170px;
+        background-color: #4fb96e;
+        transform: skewY(-20deg);
+    }
+
+    .profile-card-5 .profile-name {
+        padding-top: 15px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .profile-card-5 .profile-designation {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .profile-card-3 .profile-location {
+        color: #999;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .profile-card-5 .profile-description {
+        font-size: 13px;
+        color: #777;
+        padding: 10px;
+    }
+
+    .profile-card-5 .profile-overview {
+        padding: 15px 0px;
+    }
+
+    .profile-card-5 .profile-overview p {
+        color: #777;
+        font-size: 13px;
+    }
+
+    .profile-card-5 .profile-overview h2 {
+        font-weight: bold;
+        color: #1e2832;
+    }
+
+    .profile-card-5 .profile-icons .fa {
+        margin: 7px;
+        color: #4fb96e;
+    }
+
+    .profile-card-5:hover img {
+        transform: rotate(-5deg);
+    }
+
+    .profile-card-6 {
+        max-width: 300px;
+        background-color: #FFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+    .profile-card-6 img {
+        transition: all 0.15s linear;
+    }
+
+    .profile-card-6 .profile-name {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #FFF;
+        padding: 15px 20px;
+        background: linear-gradient(140deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0) 50%);
+        transition: all 0.15s linear;
+    }
+
+    .profile-card-6 .profile-position {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.4);
+        left: 30px;
+        top: 100px;
+        transition: all 0.15s linear;
+    }
+
+    .profile-card-6 .profile-overview {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 0, 0));
+        color: #FFF;
+        padding: 50px 0px 20px 0px;
+        transition: all 0.15s linear;
+    }
+
+    .profile-card-6 .profile-overview h3 {
+        font-weight: bold;
+    }
+
+    .profile-card-6 .profile-overview p {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .profile-card-6:hover img {
+        filter: brightness(80%);
+    }
+
+    .profile-card-6:hover .profile-name {
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+
+    .profile-card-6:hover .profile-position {
+        left: 40px;
+    }
+
+    .profile-card-6:hover .profile-overview {
+        padding-bottom: 25px;
+    }
+
+    .profile-card-7 {
+        background-color: #FFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+
+    .profile-card-7 .profile-content {
+        padding: 60px 30px 30px 30px;
+        background-color: #FFF;
+        position: relative;
+    }
+
+    .profile-card-7 .profile-content img {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        top: -40px;
+        border: 5px solid #FFF;
+    }
+
+    .profile-card-7 .profile-content .profile-name {
+        position: absolute;
+        font-size: 17px;
+        font-weight: bold;
+        top: -35px;
+        left: 125px;
+        color: #FFF;
+    }
+
+    .profile-card-7 .profile-overview {
+        padding: 5px 0px;
+    }
+
+    .profile-card-7 .profile-overview p {
+        color: #777;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .profile-card-7 .profile-overview h5 {
+        color: #142437;
+        font-weight: bold;
+    }
+
+    .profile-card-8 {
+        background: linear-gradient(#09121c, #36445a);
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        transition: all 0.25s linear;
+    }
+
+    .profile-card-8 .profile-name {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 25px;
+        color: #58d683;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .profile-card-8 .profile-designation {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 50px;
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .profile-card-8 .profile-icons {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 80px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .profile-card-8 .profile-icons .fa {
+        margin: 5px;
+    }
+
+    .profile-card-8:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    .profile-card-9 {
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        padding: 30px 15px;
+        background-color: #FFF;
+        transition: all 0.25s linear;
+    }
+
+    .profile-card-9 img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        margin: 10px auto;
+    }
+
+    .profile-card-9 .profile-name {
+        font-size: 15px;
+        color: #3249b9;
+        font-weight: 600;
+    }
+
+    .profile-card-9 .profile-designation {
+        font-size: 13px;
+        color: #777;
+    }
+
+    .profile-card-9 .profile-description {
+        padding: 10px;
+        font-size: 13px;
+        color: #777;
+        margin: 15px 0px;
+        background-color: #F1F2F3;
+        border-radius: 5px;
+    }
+
+    .profile-card-9 a {
+        padding: 10px 15px;
+        background-color: #3249b9;
+        color: #FFF;
+        font-size: 11px;
+        border-radius: 25px;
+    }
+
+    .profile-card-9:hover {
+        transform: scale(1.05, 1.05);
+    }
+
+    .profile-card-10 {
+        border-radius: 5px;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        position: relative;
+        margin: 10px auto;
+        cursor: pointer;
+        padding: 30px 15px;
+        background-color: #1f2124;
+        color: #EEE;
+    }
+
+    .profile-card-10 img {
+        margin: 10px auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 10px solid transparent;
+        box-shadow: 0px 0px 0px 2px #64c17b;
+        transition: all 0.25s linear;
+    }
+
+    .profile-card-10 .profile-name {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .profile-card-10 .profile-location {
+        font-size: 13px;
+        opacity: 0.7;
+    }
+
+    .profile-card-10 .profile-description {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .profile-card-10 .profile-icons .fa {
+        color: #ffc75e;
+        margin: 10px;
+    }
+
+    .profile-card-10:hover img {
+        transform: scale(1.1);
+    }
+
+
+    .test:hover {
+        -ms-transform: scale(1.3); /* IE 9 */
+        -webkit-transform: scale(1.3); /* Safari 3-8 */
+        transform: scale(1.3);   
+                
+    }
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light mt-3" style=" background: #383838 url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjA0fHxibGFjayUyMGdyYXl8ZW58MHwwfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)  center ;" >
+    &emsp;
+      <a class="navbar-brand" style="color: white;" href="#">Samantha Music</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+              <a class="nav-link test" style="color: white;" href="home.page.html">HOME PAGE </a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link test" style="color: white;" href="about.us.html">ABOUT US</a>
+              </li>
+              <li class="nav-item dropdown" >
+                  <a class="nav-link test" style="color: white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      OUR PRODUCTS
+                  </a>
+                  <div class="dropdown-menu" style="color: white; background-color: #e9b3008a;" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item test" href="pianos.html">PIANOS</a>
+                      <a class="dropdown-item test" href="guitars.html">GUITARS</a>
+                      <a class="dropdown-item test" href="strings.html">STRINGS</a>
+                      <a class="dropdown-item test" href="drum&percussion.html">DRUM & PERCUSSION</a>
+                      <a class="dropdown-item test" href="accessories.html">ACCESSORIES</a>
+                      <a class="dropdown-item test" href="keys.html">KEYS</a>
+                      <a class="dropdown-item test" href="amps&effects.html">AMP & EFFECTS</a>
+                      <a class="dropdown-item test" href="breathing.html">BREATHING</a>
+                      <a class="dropdown-item test" href="stdui&stage.html">STUDIO & STAGE</a>
+                      <a class="dropdown-item test" href="onlinecourses.html">ONLINE COURSES</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link test" style="color: white;"  href="constact.html">CONSTACT</a>
+              </li>
+          </ul>
+          
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline my-2 my-sm-0" style="background-color: #cc4778;" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+
+    <br/><br/>
+
+    <header class="container text-center">
+        <div >
+
+            <!-- Logo -->
+            <div class="logo">
+            <p class="display-4 font-weight-light text-white"><em>
+            "Music is real only if you can feel it.&emsp14;" </em></p>
+            </div>
+
+            <h5 class="font-weight-light text-white"><em>-RAY.</em></h5>
+
+        </div>
+    </header>
+<br/>
+
+
+<div class="container">
+    <h4 class="text-center" style="font-size: 33px;"><strong>OUR PRODUCTS</strong></h4><hr>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/flagged/photo-1552331619-7f97d9a4c9c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"  width="300" height="400"></a>
+
+                <div class="profile-name"> ELECTRO<br>GUITARS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>14</h3>
+                                <p>Product</p>
                             </div>
-                            <div class="table">
-                                <h6 class="category text-info">Cinema</h6>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget nisi sit amet, scelerisque dignissim velit antement. </p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="table table-info">
-                                <h5 class="category-social">
-	    									<i class="fa fa-twitter"></i> Twitter
-	    								</h5>
-                                <h4 class="card-caption">
-	    									<a href="#">"Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit. Sus pendisse ultricies varius."</a>
-	    								</h4>
-                                <div class="ftr">
-                                    <div class="author">
-                                        <a href="#"> <img src="http://adamthemes.com/demo/code/cards/images/avatar3.png" alt="" class="avatar img-raised"> <span>Debbon Amet</span> </a>
-                                    </div>
-                                    <div class="stats"> <i class="fa fa-heart"></i> 365 &nbsp; <i class="fa fa-share-alt"></i> 120 </div>
-                                </div>
+
+                            <div class="col-xs-4">
+                                <h3>20</h3>
+                                <p>Upcoming Products</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="table">
-                                <h6 class="category text-danger">
-	    									<i class="fa fa-globe "></i> World
-	    								</h6>
-                                <h4 class="card-caption">
-	    									<a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit.</a>
-	    								</h4>
-                                <div class="ftr">
-                                    <div class="author">
-                                        <a href="#"> <img src="http://adamthemes.com/demo/code/cards/images/avatar3.png" alt="" class="avatar img-raised"> <span>Patrick Wood</span>
-                                            <div class="ripple-cont">
-                                                <div class="ripple ripple-on ripple-out" style="left: 574px; top: 364px; background-color: rgb(60, 72, 88); transform: scale(11.875);"></div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="stats"> <i class="fa fa-heart"></i> 342 &nbsp; <i class="fa fa-comment"></i> 45 </div>
-                                </div>
+                </div>
+            </div>
+    
+    <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1485278537138-4e8911a13c02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name"> BASS <br>GUITAR </div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>33</h3>
+                                <p>Product</p>
                             </div>
-                        </div>
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/blog01.jpeg"> </a>
-                                <div class="ripple-cont"></div>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-success"><i class="fa fa-university"></i> Law</h6>
-                                <h4 class="card-caption">
-                            <a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit</a>
-	    			        </h4>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus.</p>
-                                <div class="ftr">
-                                    <div class="author">
-                                        <a href="#"> <img src="http://adamthemes.com/demo/code/cards/images/avatar3.png" alt="..." class="avatar img-raised"> <span>Mary Dunst</span> </a>
-                                    </div>
-                                    <div class="stats"> <i class="fa fa-clock-o"></i> 10 min </div>
-                                </div>
+
+                            <div class="col-xs-4">
+                                <h3>5</h3>
+                                <p>Upcoming Products</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/blog01.jpeg"> </a>
-                                <div class="ripple-cont"></div>
+                </div>
+            </div>
+
+    <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://www.ethnicmusical.com/wp-content/uploads/2019/08/OUD-AAGP-AMEQ34-3-4-Electric-Oud-Fishman-Pickup-Black-Walnut-wood.jpg" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">OUDS </div>
+                <div class="profile-position"><br/>Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>2</h3>
+                                <p>Product</p>
                             </div>
-                            <div class="table">
-                                <h6 class="category text-warning">
-	    									<i class="fa fa-soundcloud"></i> Music
-	    								</h6>
-                                <h4 class="card-caption">
-                                <a href="#">Vivamus odio ante, feugiat eget nisi sit amet, dignissim velit</a>
-	    			        </h4>
-                                <div class="ftr">
-                                    <div class="author">
-                                        <a href="#"> <img src="http://adamthemes.com/demo/code/cards/images/avatar3.png" alt="..." class="avatar img-raised"> <span>Debbon Amet</span> </a>
-                                    </div>
-                                    <div class="stats"> <i class="fa fa-clock-o"></i> 15 min </div>
-                                </div>
+
+                            <div class="col-xs-4">
+                                <h3>25</h3>
+                                <p>Upcoming Products</p>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="table table-danger">
-                                <h5 class="category-social">
-	    									<i class="fa fa-newspaper-o"></i> News
-	    								</h5>
-                                <h4 class="card-caption">
-	    									<a href="#">"Consectetur odio feugiat"</a>
-	    								</h4>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus.</p>
-                                <div class="ftr text-center"> <a href="#" class="btn btn-white btn-round">Read More</a> </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1522008224169-e5992bed5fae?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3VpdGFyJTIwc3RyaW5nc3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">GUITAR <br>STRINGS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>22</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>21</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1551740132-1d0c02b8275e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">TABLES <br>& STANDS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>8</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>10</h3>
+                                <p>Upcoming Products</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- PLAIN CARDS -->
-        <h3>Plain Cards</h3>
-        <div class="cards-2 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img img-raised" src="http://adamthemes.com/demo/code/cards/images/blog01.jpeg"> </a>
-                                <div class="ripple-cont"></div>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-info">Pharetra</h6>
-                                <h4 class="card-caption">
-										<a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
-									</h4>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img img-raised" src="http://adamthemes.com/demo/code/cards/images/blog01.jpeg"> </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-danger">Lacinia</h6>
-                                <h4 class="card-caption">
-										<a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
-									</h4>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-blog">
-                            <div class="card-image">
-                                <a href="#"> <img class="img img-raised" src="https://www.imageupload.co.uk/images/2018/10/15/blog02.jpg"> </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-success">Consectetur</h6>
-                                <h4 class="card-caption">
-										<a href="#">Quisque id elit maximus, pretium diam at mollis elit</a>
-									</h4>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- BACKGROUND CARDS -->
-        <h3>Background Cards</h3>
-        <div class="cards-3 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card card-background" style="background-image: url('http://adamthemes.com/demo/code/cards/images/blog07.jpeg')">
-                            <div class="table">
-                                <h6 class="category text-info">Category</h6>
-                                <a href="#">
-                                    <h3 class="card-caption">Vivamus odio ante, feugiat eget nisisit</h3> </a>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget, scelerisque dignissim velit antement.</p>
-                                <a href="#" class="btn btn-white btn-simple"> <i class="fa fa-align-left"></i> Read Article </a>
-                                <a href="#pablo" class="btn btn-warning btn-round"> <i class="fa fa-cogs"></i> Our Project
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card card-background" style="background-image: url('http://adamthemes.com/demo/code/cards/images/blog07.jpeg')">
-                            <div class="table">
-                                <h6 class="category text-info">Category</h6>
-                                <h3 class="card-caption">Quisque id elit maximus, pretium mollis elit</h3>
-                                <p class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit et placerat finibus. Praesent justo metus, pharetra vel nibh sit amet, tincidunt posuere nulla. Vivamus odio antement, feugiat eget amet, scelerisque velit antement.</p>
-                                <a href="#" class="btn btn-danger btn-round"> <i class="fa fa-align-left"></i> Read Article </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PROFILE CARDS 1 -->
-        <h3>Profile Cards</h3>
-        <div class="cards-5 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">Patrick Wood</h4>
-                                <h6 class="category text-muted">CEO / Co-Founder</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-pinterest btn-round"><i class="fa fa-pinterest"></i>
-                                    </a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">Debbon Amet</h4>
-                                <h6 class="category text-muted">Front End Developer</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-avatar">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">Mary Dunst</h4>
-                                <h6 class="category text-muted">Web Designer</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-dribbble btn-round"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-pinterest btn-round"><i class="fa fa-pinterest"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PROFILE CARDS 2 -->
-        <h3>Profile Cards</h3>
-        <div class="cards-6 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                    <div class="card-caption"> John Smith </div>
-                                </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-danger">CEO / Co-Founder</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                    <div class="card-caption"> Clementine Thson </div>
-                                </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-success">Graphic Designer</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png">
-                                    <div class="card-caption"> Elanor Aline</div>
-                                </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-info">Front End Developer</h6>
-                                <p class="card-description"> Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is... </p>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-simple btn-twitter"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-dribbble"><i class="fa fa-dribbble"></i></a> <a href="#" class="btn btn-just-icon btn-simple btn-instagram"><i class="fa fa-instagram"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PROFILE CARDS 3 -->
-        <h3>Profile Cards</h3>
-        <div class="cards-7 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">John Smith</h4>
-                                <h6 class="category text-gray">CEO / Co-Founder</h6>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-google"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">Clementine Thson</h4>
-                                <h6 class="category text-gray">Graphic Designer</h6>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-pinterest"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-profile">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h4 class="card-caption">Elanor Aline</h4>
-                                <h6 class="category text-gray">Front End Developer</h6>
-                                <div class="ftr"> <a href="#" class="btn btn-just-icon btn-twitter btn-round"><i class="fa fa-twitter"></i></a> <a href="#" class="btn btn-just-icon btn-facebook btn-round"><i class="fa fa-facebook-square"></i></a> <a href="#" class="btn btn-just-icon btn-google btn-round"><i class="fa fa-google"></i></a> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- PRODUCT CARDS -->
-        <h3>Product Cards</h3>
-        <div class="cards-8 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-rose">Clothing</h6>
-                                <h4 class="card-caption">
-									<a href="#">The Name</a>
-								</h4>
-                                <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
-                                <div class="ftr">
-                                    <div class="price">
-                                        <h4>$1,230</h4> </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-warning" data-original-title="Saved to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="images/model02.jpg"> </a>
-                                <div class="ripple-cont"></div>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-muted">Clothing</h6>
-                                <h4 class="card-caption">
-									<a href="#">The Name</a>
-								</h4>
-                                <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
-                                <div class="ftr">
-                                    <div class="price">
-                                        <h4>$990</h4> </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i>
-                                            <div class="ripple-cont"></div>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="images/model03.jpg"> </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-muted">Clothing</h6>
-                                <h4 class="card-caption">
-									<a href="#">The Name</a>
-								</h4>
-                                <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
-                                <div class="ftr">
-                                    <div class="price">
-                                        <h4>$1,100</h4> </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-warning" data-original-title="Saved to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card card-product">
-                            <div class="card-image">
-                                <a href="#"> <img class="img" src="images/model04.jpg"> </a>
-                            </div>
-                            <div class="table">
-                                <h6 class="category text-rose">Clothing</h6>
-                                <h4 class="card-caption">
-									<a href="#">The Name</a>
-								</h4>
-                                <div class="card-description"> Lorem ipsum dolor sit amet, consectetur adipis cingelit. Etiam lacinia elit... </div>
-                                <div class="ftr">
-                                    <div class="price">
-                                        <h4>$1,200</h4> </div>
-                                    <div class="stats">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-just-icon btn-simple btn-default" data-original-title="Save to Wishlist"> <i class="fa fa-shopping-cart"></i> </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- TESTIMONIAL CARDS -->
-        <h3>Testimonial Cards</h3>
-        <div class="cards-4 section-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card card-testimonial">
-                            <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                            <div class="table">
-                                <h5 class="card-description">
-								"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-							</h5> </div>
-                            <div class="ftr">
-                                <h4 class="card-caption">Debbon Amet</h4>
-                                <h6 class="category">@debbonamet</h6>
-                                <div class="card-avatar">
-                                    <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-testimonial">
-                            <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                            <div class="table">
-                                <h5 class="card-description">
-								"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-							</h5> </div>
-                            <div class="ftr">
-                                <h4 class="card-caption">Mary Dunst</h4>
-                                <h6 class="category">@marydunst</h6>
-                                <div class="card-avatar">
-                                    <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-testimonial">
-                            <div class="icon"> <i class="fa fa-quote-right"></i> </div>
-                            <div class="table">
-                                <h5 class="card-description">
-								"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!"
-							</h5> </div>
-                            <div class="ftr">
-                                <h4 class="card-caption">Patrick Wood</h4>
-                                <h6 class="category">@patrickwood</h6>
-                                <div class="card-avatar">
-                                    <a href="#"> <img class="img" src="http://adamthemes.com/demo/code/cards/images/avatar3.png"> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    -->
+
+        <div class="col-md-4">
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1610557607773-51db1458e1c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"  width="300" height="400"></a>
+
+                <div class="profile-name"> CLASSIC <br> GUITAR</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>34</h3>
+                                <p>Product</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>12</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+    
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1609337231710-fb395e86660d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGd1aXRhcnN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">GUITAR <br>SETS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>6</h3>
+                                <p>Product</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>3</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://www.sagamusic.com/wp-content/uploads/2020/07/AM-10_c_bg.png" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">MANDOLINES </div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>2</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>19</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1626202760662-72fedca042f9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHRhYmxlcyUyMCUyNiUyMHN0YW5kcyUyMGluc3RydW1lbnR8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"  width="300" height="400"></a>
+
+                <div class="profile-name">GUITAR<br> PARTS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>9</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>7</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1552028650-1056e04d2e6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">COVER & <br> CARRYING BAG</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>26</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>8</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-md-4">
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://www.ibanez.com/images/index/mainSlide/rotating-banner-pa-sp.jpg"  width="300" height="400"></a>
+
+                <div class="profile-name"> ACOUSTIC  <br>GUITAR </div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>32</h3>
+                                <p>Product</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>20</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1605049901359-84a505eb1ed2?ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">UKULELES </div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>5</h3>
+                                <p>Product</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>31</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://banjo.com/wp-content/uploads/2015/11/stelling-swallowtail-3.jpg"  width="300" height="400"></a>
+
+                <div class="profile-name">BANJOS </div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>2</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>12</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://images.unsplash.com/photo-1599302863671-f186fe8f0b72?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGd1aXRhciUyMGJhZ3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">GUITAR <br>ACCESSORIES</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>19</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>7</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br/>
+
+            <div class="profile-card-6">
+                <a  href="pianos.html">
+                <img src="https://www.kikutani.co.jp/wp/wp-content/uploads/2018/02/082417_MusicNomad0861-1.jpg" class="img img-responsive"  width="300" height="400"></a>
+
+                <div class="profile-name">CARE & <br>CLEANING PRODUCTS</div>
+                <div class="profile-position">Samantha Music</div>
+                <div class="profile-overview">
+
+                    <div class="profile-overview">
+                        <div class="row text-center">
+                            <div class="col-xs-4">
+                                <h3>20</h3>
+                                <p>Rank</p>
+                            </div>
+
+                            <div class="col-xs-4">
+                                <h3>14</h3>
+                                <p>Upcoming Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
   </body>
 </html>
